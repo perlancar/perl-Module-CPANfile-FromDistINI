@@ -55,3 +55,5 @@ requires installing Dist::Zilla.
 L<Module::CPANFile> which contains scripts like L<mymeta-cpanfile>.
 
 L<scan-prereqs-cpanfile> from L<App::scan_prereqs_cpanfile>.
+
+L<http://blogs.perl.org/users/piotr_roszatycki/2014/01/i-hate-distzilla-and-missing-makefilepl.html>
