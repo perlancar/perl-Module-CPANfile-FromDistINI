@@ -28,7 +28,7 @@ sub distini_cpanfile {
     my $ct = do {
         open my($fh), "<", "dist.ini" or die "Can't open dist.ini: $!";
         local $/;
-        binmode $fh, ":utf8";
+        binmode $fh, ":encoding(utf8)";
         ~~<$fh>;
     };
 
